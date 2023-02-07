@@ -1,0 +1,30 @@
+.company-container{
+    height: 500px;
+    background-color: #547;
+    display: flex;
+
+}
+
+.cc-image{
+    flex: 1;
+    background-color: #254;
+}
+
+.cc-content{
+    flex: 2;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.c-heading{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    
+}
+.c-para{
+    width: 100%;
+   padding: 20px;
+}
