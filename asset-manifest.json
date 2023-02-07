@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1df269d6.css",
+    "main.js": "/static/js/main.39d95726.js",
+    "static/media/LivingRoom-design.jpg": "/static/media/LivingRoom-design.e70f604208699ab95e65.jpg",
+    "static/media/Bedroom-design.jpg": "/static/media/Bedroom-design.0189bd921f6cf36d20c6.jpg",
+    "static/media/people1.jpg": "/static/media/people1.7ffa116c9685d030a8bc.jpg",
+    "static/media/people2.jpg": "/static/media/people2.1577815c6cfb6fb59ab2.jpg",
+    "static/media/acessories-design.jpg": "/static/media/acessories-design.c15452715f4d32897e85.jpg",
+    "static/media/people5.jpg": "/static/media/people5.115eed408e6ce0312372.jpg",
+    "static/media/people3.jpg": "/static/media/people3.3dd205931a8c6e721a12.jpg",
+    "static/media/hero-background.jpg": "/static/media/hero-background.fe5622ea6abb86cf5616.jpg",
+    "static/media/Kitchen-design.jpg": "/static/media/Kitchen-design.ed93a683a1695f08c33a.jpg",
+    "static/media/people4.jpg": "/static/media/people4.d3966257c6a7bdb70339.jpg",
+    "index.html": "/index.html",
+    "main.1df269d6.css.map": "/static/css/main.1df269d6.css.map",
+    "main.39d95726.js.map": "/static/js/main.39d95726.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1df269d6.css",
+    "static/js/main.39d95726.js"
+  ]
+}
