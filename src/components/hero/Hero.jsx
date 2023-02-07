@@ -7,7 +7,7 @@ function Hero() {
             <div className='hero-contents'>
             <h1 className='hero-heading'>Every home needs their own story</h1>
             <p className='hero-p'>Just a interior designers creating your home tale</p>
-      <p className='hero-p'>Come Home To Your Dream.</p>
+      <p className='hero-p'>Come </p>
             </div>
      
         </section>
