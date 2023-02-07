@@ -12,7 +12,7 @@ function About() {
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, tenetur!
                 </p>
                 
-                <div className="button"><a class="bn47" href="/">Know more</a></div>
+                <div className="button"><a className="bn47" href="/">Know more</a></div>
                 
             </section>
         </div>

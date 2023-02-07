@@ -15,7 +15,7 @@ import ProjectPage from "./pages/projectPage/ProjectPage";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
           <Route
@@ -37,7 +37,7 @@ function App() {
           <Route path="/works" element={<ProjectPage />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </BrowserRouter >
     </div>
   );
 }
