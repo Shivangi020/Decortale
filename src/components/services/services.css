@@ -1,0 +1,121 @@
+.service-main {
+    background-color: #dfdfde;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom :50px;
+  }
+  
+  .service-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .service-text {
+    margin-bottom: 20px;
+  }
+  .service-heading {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  .service-p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  
+  .service-content {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .service-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .service-icon {
+    min-width: 30px;
+    min-height: 30px;
+    font-size: 1.2rem;
+    border-radius: 100%;
+    background-color: rgb(240, 165, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    transition: 0.8s;
+  }
+  
+  .service-icon:hover {
+    background-color: #f0a500;
+  }
+  .icon-p {
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width: 360px) {
+    .service-heading {
+      font-size: 1.7rem;
+    }
+    .service-p {
+      font-size: 0.5rem;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .service-wrapper {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .service-icon {
+      min-width: 70px;
+      max-width: 70px;
+      height: 70px;
+      font-size: 2em;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .service-main {
+      height: 400px;
+    }
+    .service-wrapper {
+      width: 100%;
+      justify-content: space-around;
+      padding: 20px;
+    }
+  
+    .service-text {
+      flex: 1;
+    }
+    .service-content {
+      flex: 2;
+    }
+    .service-heading {
+      font-size: 3.5rem;
+      font-weight: 800;
+    }
+    .service-p {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+    .service-icon {
+      min-height: 90px;
+      min-width: 90px;
+      font-size: 4rem;
+      font-weight: 300;
+    }
+  
+    .icon-p {
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+  }
+  

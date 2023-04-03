@@ -1,0 +1,33 @@
+.company-container , .team-container{
+    height: 500px;
+    background-color: #547;
+    display: flex;
+}
+
+.cc-image , .tc-image{
+    flex: 1;
+    background-color: #254;
+}
+
+.cc-content,.tc-content{
+    flex: 2;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.c-heading{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    
+}
+.c-para{
+    width: 100%;
+   padding: 20px;
+}
+
+.team-container{
+    flex-direction: row-reverse;
+}

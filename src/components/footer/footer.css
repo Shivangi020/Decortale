@@ -1,0 +1,86 @@
+.footer{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+.top{
+    width: 100%;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.footerLogo{
+    margin-bottom: 10px;
+  
+}
+
+.footerMenu{
+    text-align: center;
+}
+.fm-links{
+    padding: 0;
+list-style: none;
+text-decoration: none;
+
+}
+li{
+    margin-bottom: 4px;
+    font-size: 1.1em;
+}
+.fm-links a{
+    text-decoration: none;
+    color: white;
+  
+}
+hr{
+    margin-bottom: 7px;
+   
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    font-size: .8em;
+    margin-bottom: 5px;
+}
+
+.fsm-icon{
+    margin: 7px;
+    
+}
+
+@media screen and (min-width:620px) {
+    .footer{
+        height: 200px;
+    }
+    .top{
+       flex-direction: row; 
+       justify-content: space-between;
+       padding:0 50px 0 50px;
+    }
+
+    .fm-links{
+        display: flex;
+        gap: 50px;
+    }
+
+    li{
+        font-size: 1.3em;
+        margin-bottom: 10px;
+    }
+
+    .copyright{
+        margin-top: 15px;
+        font-size: 1.2em;
+    }
+}
