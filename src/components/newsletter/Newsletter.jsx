@@ -15,7 +15,7 @@ function Newsletter() {
         </form>
     </div>
     <div className='nl-img-div'>
-        <img  className ="nl-img" src={nlImage}></img>
+        <img className ="nl-img" src={nlImage} alt='newsletter'></img>
     </div>
     </section>
 

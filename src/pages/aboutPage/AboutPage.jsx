@@ -1,52 +1,26 @@
-import React ,{useState}from "react";
+import React from "react";
 import "./aboutPage.css";
-import PageNav from "../../components/pageNav/PageNav";
-import {AiOutlineMail,AiOutlinePhone} from 'react-icons/ai'
-import { motion,AnimatePresence } from "framer-motion";
-import { data } from "../../data";
+import Hero from "../../components/hero/Hero";
+import TeamCard from "./teamCard";
+import { teamData } from "../../data";
 
 function AboutPage() {
-  const [selectedId, setSelectedId] = useState(null)
   return (
-    <div>
-      <PageNav page="ABOUT US" />
-      <div className="company-container">
-        <div className="cc-image"></div>
-        <div className="cc-content">
-          <h1 className="c-heading">THE COMPANY</h1>
-          <p>12012 Belle Views Svenhaven ,Maryland , 88149-0182 Couunrty USA</p>
-          <br />
-          <p><AiOutlinePhone/> 382-675-5066 x029</p><br/> <p><AiOutlineMail/> semmerich@gmail.com</p>
-          <div className="c-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            nemo sunt quos. Dolorum consectetur commodi possimus alias minima
-            ullam quam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Excepturi harum optio repellendus repudiandae beatae ullam dolor
-            voluptates? Hic eos dolorum cupiditate sed veritatis a rerum quos
-            voluptatibus, quisquam, laborum neque? Lorem ipsum dolor sit amet
-            consectetur
-          </div>
-        </div>
-      </div>
-      <div className="team-container">
-      
- 
- {data.map(item => (
-  <> <motion.div layoutId={item.name} onClick={() => setSelectedId(item.name)}>
-     <motion.h5>{item.name}</motion.h5>
-     <motion.h2>{item.name}</motion.h2>
-   </motion.div>
-  <AnimatePresence>
-   {selectedId && (
-     <motion.div layoutId={selectedId}>
-       <motion.h5>{item.name}</motion.h5>
-       <motion.h2>{item.name}</motion.h2>
-       <motion.button onClick={() => setSelectedId(null)} />
-     </motion.div>
-   )}
- </AnimatePresence> 
- </>
- ))}
+    <div className="aboutp-main">
+      <Hero backImg='https://res.cloudinary.com/drgtvwy3q/image/upload/v1680550049/decortale-images/office_cnb3yr.jpg'>
+        <h1 className="hero-heading">Our Office</h1>
+        <p className='hero-p'>Just a interior designers creating your home tale</p>
+        <p className='hero-p'>Transforming spaces, enhancing lifestyles</p>
+        <button>Go Back</button>
+      </Hero>
+      <div className="people-div">
+        <header className="team-header">Our People</header>
+        <section className="team-s">
+          {teamData.map((member,index)=>{
+            const{name,imageSrc,pos,email} = member
+            return <TeamCard name={name} mail={email} pos={pos}  imageSrc={imageSrc} key={index}/>
+          })}
+        </section>
       </div>
     </div>
   );

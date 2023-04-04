@@ -1,7 +1,7 @@
 import "./App.css";
 import About from "./components/aboutUs/About";
 import Footer from "./components/footer/Footer";
-import Hero from "./components/hero/Hero";
+import Header from "./components/hero/Header";
 import Navbar from "./components/navbar/Navbar";
 import Newsletter from "./components/newsletter/Newsletter";
 import Project from "./components/project/Project";
@@ -22,7 +22,7 @@ function App() {
             path="/"
             element={
               <>
-                <Hero />
+                <Header />
                 <Services />
                 <Project />
                 <About />
