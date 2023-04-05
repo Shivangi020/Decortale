@@ -7,6 +7,7 @@ import {
   FaFacebookSquare,
 } from "react-icons/fa";
 import { GiHouse} from "react-icons/gi";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer">
@@ -16,10 +17,10 @@ function Footer() {
         </div>
         <div className="footerMenu">
           <ul className="fm-links">
-            <li><a href="/about">Company</a></li>
-            <li><a href="#">Job</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Products</a></li>
+            <li><Link to="/about">Company</Link></li>
+            <li><Link to="#">Job</Link></li>
+            <li><Link to="#">Shop</Link></li>
+            <li><Link to="#">Products</Link></li>
           </ul>
         </div>
       </div>
