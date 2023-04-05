@@ -11,7 +11,7 @@ function AboutPage() {
         <h1 className="hero-heading">Our Office</h1>
         <p className='hero-p'>Just a interior designers creating your home tale</p>
         <p className='hero-p'>Transforming spaces, enhancing lifestyles</p>
-        <button>Go Back</button>
+        <button className="nl-btn">Go Back</button>
       </Hero>
       <div className="people-div">
         <header className="team-header">Our People</header>

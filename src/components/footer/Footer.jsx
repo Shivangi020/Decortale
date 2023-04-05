@@ -16,7 +16,7 @@ function Footer() {
         </div>
         <div className="footerMenu">
           <ul className="fm-links">
-            <li><a href="#">Company</a></li>
+            <li><a href="/about">Company</a></li>
             <li><a href="#">Job</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="#">Products</a></li>
