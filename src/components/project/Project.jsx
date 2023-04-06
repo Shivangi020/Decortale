@@ -10,7 +10,7 @@ function Project() {
   return (
     <div className="project-main">
       <div className="project-wrapper">
-        <section className="project-title">Recent works</section>
+        <section className="project-title">RECENT WORK</section>
         <section className="project-content">
           <div className="project">
             <div className="project-image vertical">
