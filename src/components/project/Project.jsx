@@ -1,8 +1,5 @@
 import React from "react";
 import "./project.css";
-import image1 from "../../images/Kitchen-design.jpg";
-import image2 from '../../images/Bedroom-design.jpg'
-import image3 from '../../images/LivingRoom-design.jpg'
 
 
 
@@ -14,19 +11,19 @@ function Project() {
         <section className="project-content">
           <div className="project">
             <div className="project-image vertical">
-              <img src={image1} alt='Kitchen Interior' ></img>
+              <img src='https://res.cloudinary.com/drgtvwy3q/image/upload/v1680550036/decortale-images/Kitchen-design_nh78o3.jpg' alt='Kitchen Interior' ></img>
               <div className="image-overlay ">
                 <p>Kitchen Interior</p>
               </div>
             </div>
             <div className="project-image horizontal">
-              <img src={image2} alt="Bedroom Interior"></img>
+              <img src='https://res.cloudinary.com/drgtvwy3q/image/upload/v1680550020/decortale-images/Bedroom-design_mlxmuq.jpg' alt="Bedroom Interior"></img>
               <div className="image-overlay ">
                 <p>Bedroom Interior</p>
               </div>
             </div>
             <div className="project-image big">
-              <img src={image3} alt="Living Room Interior"></img>
+              <img src='https://res.cloudinary.com/drgtvwy3q/image/upload/v1680550042/decortale-images/LivingRoom-design_bjmcqg.jpg' alt="Living Room Interior"></img>
               <div className="image-overlay">
                 <p>Living Room Interior</p>
               </div>

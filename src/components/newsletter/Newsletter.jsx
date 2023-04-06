@@ -1,6 +1,6 @@
 import React from 'react'
 import './newsletter.css'
-import nlImage from '../../images/acessories-design.jpg'
+
 
 function Newsletter() {
   return (
@@ -15,7 +15,7 @@ function Newsletter() {
         </form>
     </div>
     <div className='nl-img-div'>
-        <img className ="nl-img" src={nlImage} alt='newsletter'></img>
+        <img className ="nl-img" src='https://res.cloudinary.com/drgtvwy3q/image/upload/v1680550016/decortale-images/acessories-design_ndrfvk.jpg' alt='newsletter'></img>
     </div>
     </section>
 

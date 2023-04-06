@@ -1,30 +1,24 @@
-import people1 from './images/people/people1.jpg'
-import people2 from './images/people/people2.jpg'
-import people3 from './images/people/people3.jpg'
-import people4 from './images/people/people4.jpg'
-import people5 from './images/people/people5.jpg'
-
 
 export  const data = [
 {
     name:"Leanne Graham",
-    img:people1
+    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812118/decortale-images/people1_jwy8qj.jpg"
 },
 {
     name:"Ervin Howell",
-    img:people2
+    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812117/decortale-images/people2_ztz09v.jpg"
 },
 {
     name:"Clementine Bauch",
-    img:people3
+    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812117/decortale-images/people3_s7rbyx.jpg"
 },
 {
     name:"Patricia Lebsack",
-    img:people4
+    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812116/decortale-images/people4_nmerso.jpg"
 },
 {
     name:"Chelsey Dietrich",
-    img:people5
+    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812118/decortale-images/people5_qcswiu.jpg"
 },
 ]
 

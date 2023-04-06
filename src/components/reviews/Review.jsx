@@ -1,7 +1,7 @@
 import React from "react";
 import "./review.css";
 import { data } from "../../data";
-import user from "../../images/people/people1.jpg";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
