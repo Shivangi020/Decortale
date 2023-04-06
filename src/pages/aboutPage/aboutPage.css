@@ -81,7 +81,8 @@
     color:#F0A500;
     width: 500px;
     line-height: 23px;
-    text-align: justify;
+    text-align: center;
+    overflow: hidden;
 }
 
 .hero-p-l{
@@ -94,4 +95,46 @@
 .abt-i{
     margin-right: 5px;
     font-size: 1.2em;
+}
+
+@media screen and (max-width:600px) {
+    .team-header {
+        line-height: 0.9;
+        font-size: 29px;
+        }
+    .hero-p-s{
+        width: auto;
+        min-width: 300px;
+        line-height: 22px;
+        font-size: .8em;
+    }
+    
+    .hero-p-l{
+        color: #F0A500;
+        font-size: .8em;
+        margin-left: 10px;
+        line-height: 39px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    p.hero-p-l:nth-child(2) {
+        line-height: 14px;
+    }
+    p.hero-p-l:nth-child(3) {
+        line-height: 9px;
+        }
+    .hero-p-s{
+        min-width: 200px;
+        line-height: 22px;
+        text-align: justify;
+        font-size: .8em;
+    }
+    
+    .hero-p-l{
+        color: #F0A500;
+        font-size: .8em;
+        margin-left: 10px;
+        line-height: 39px;
+    }
 }

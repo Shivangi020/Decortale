@@ -13,7 +13,7 @@ function Contact() {
 <form className="co-form">
   <input className="f-name" placeholder="Name"></input>
   <input className="f-email" placeholder="Email"></input>
-  <input className="f-msg" placeholder="Message"></input>
+  <textarea rows="4" cols="50" className="f-msg" placeholder="Message"></textarea>
 <button className="f-btn">Submit</button>
 </form>
 <div className="co-info">

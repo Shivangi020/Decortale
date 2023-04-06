@@ -1,5 +1,5 @@
 .contact-main{
-    height: calc(100vh - 70px);
+    /* height: calc(100vh - 70px); */
     background-color:#dfdfde;
     padding: 19px;
     display: flex;
@@ -101,7 +101,7 @@ flex: .5;
     }
     .contact-main{
         padding: 20px 80px;
-      
+        height: 700px;
     }
     .co-info h3{
         font-size: 1.7em;
