@@ -27,12 +27,12 @@ function Footer() {
 <hr />
       <div className="bottom">
         <div className="copyright">© 2022 Decortale All right reserved</div>
-        <div className="social">
+        {/* <div className="social">
           <FaFacebookSquare className="sm-icon fsm-icon" />
           <FaInstagramSquare className="sm-icon fsm-icon" />
           <FaPinterestSquare className="sm-icon fsm-icon" />
           <FaTwitterSquare className="sm-icon fsm-icon" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
