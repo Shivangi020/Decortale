@@ -5,16 +5,18 @@ import Project from "../components/project/Project";
 import About from "../components/aboutUs/About";
 import Review from "../components/reviews/Review";
 import Newsletter from "../components/newsletter/Newsletter";
+import Loader from "../components/Loader/loader";
 
 function Home() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Services />
       <Project />
       <About />
       <Review />
-      <Newsletter />
+      <Newsletter /> */}
+      <Loader/>
     </>
   );
 }
