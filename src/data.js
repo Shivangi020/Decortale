@@ -2,23 +2,23 @@
 export  const data = [
 {
     name:"Leanne Graham",
-    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812118/decortale-images/people1_jwy8qj.jpg"
+    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812118/decortale-images/people1_jwy8qj.webp"
 },
 {
     name:"Ervin Howell",
-    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812117/decortale-images/people2_ztz09v.jpg"
+    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812118/decortale-images/people5_qcswiu.webp"
 },
 {
     name:"Clementine Bauch",
-    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812117/decortale-images/people3_s7rbyx.jpg"
+    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812118/decortale-images/people6_bqwunr.webp"
 },
 {
     name:"Patricia Lebsack",
-    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812116/decortale-images/people4_nmerso.jpg"
+    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812117/decortale-images/people2_ztz09v.webp"
 },
 {
     name:"Chelsey Dietrich",
-    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812118/decortale-images/people5_qcswiu.jpg"
+    img:"https://res.cloudinary.com/drgtvwy3q/image/upload/v1680812117/decortale-images/people3_s7rbyx.webp"
 },
 ]
 
