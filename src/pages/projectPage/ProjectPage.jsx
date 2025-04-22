@@ -1,10 +1,10 @@
 import React from 'react'
-import PageNav from '../../components/pageNav/PageNav'
+// import PageNav from '../../components/pageNav/PageNav'
 
 function ProjectPage() {
   return (
     <div>
-      <PageNav page='PROJECTS'/>
+{/*       <PageNav page='PROJECTS'/> */}
       ProjectPage</div>
   )
 }
